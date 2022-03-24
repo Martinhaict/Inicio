@@ -1,0 +1,20 @@
+/* clear fix= apagar tudo o q é automático do sistema
+box-sizing= diz às imgs para diminuir o tamanho 
+*= aplica tudo o html 
+alt= texto a substituir img--> */
+
+*{
+	box-sizing: border-box;
+}
+
+.separadas{
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+.tudo::after { 
+  content: ""; 
+  clear: both; 
+  display: table; 
+} 
