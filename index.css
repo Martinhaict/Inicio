@@ -18,3 +18,7 @@ alt= texto a substituir img--> */
   clear: both; 
   display: table; 
 } 
+
+.tudo{
+	background-image: url("funfo.gif");
+}
